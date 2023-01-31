@@ -37,11 +37,11 @@
 	#How likely zombies making noise near you will attract other zombies, higher = less likely, 0 = every time they make a noise
 	#Range: > -2147483648
 	noisyZombiesReinforceOddsTo1 = 5
-	#No comment
+	# 
 	debugConsole = false
-	#No comment
+	# 
 	debugConsoleOmniscient = false
-	#No comment
+	# 
 	debugConsoleSuperDetailed = false
 	#Minimum distance required between active sense sources, prevents spamming sources [performance sensitive]
 	#Range: 4.9E-324 ~ 1.7976931348623157E308

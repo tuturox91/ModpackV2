@@ -1,0 +1,41 @@
+{
+	id: "57B5DF92D54F3341"
+	group: ""
+	order_index: 1
+	filename: "57B5DF92D54F3341"
+	title: "Исследования"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "x10 Крассный Исследовательский пакет."
+		icon: "create:water_wheel"
+		x: 0.0d
+		y: -2.0d
+		shape: "gear"
+		subtitle: "Откроет: Малая/Большая шестерня, Вал, Водное колесо."
+		size: 1.2d
+		id: "2400710583BC3346"
+		tasks: [{
+			id: "5FFACB28B195808A"
+			type: "item"
+			item: "kubejs:red_science"
+			count: 10L
+			consume_items: true
+		}]
+		rewards: [
+			{
+				id: "0B0147ADB2E1540D"
+				type: "command"
+				auto: "invisible"
+				command: "/thitemstages add @p create_full true"
+				player_command: false
+			}
+			{
+				id: "3349A45ADFED327D"
+				type: "xp"
+				auto: "enabled"
+				xp: 10
+			}
+		]
+	}]
+}

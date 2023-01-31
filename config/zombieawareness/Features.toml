@@ -22,9 +22,9 @@
 	#How loud sounds should be for a mob targetting you
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
 	soundVolumeAlertTarget = 0.5
-	#No comment
+	# 
 	soundAlerts = true
-	#No comment
+	# 
 	soundInvestigates = true
 	#Uses a different kind of mob alert noise, might break immersion a bit ;)
 	soundUseAlternateAlertNoise = false

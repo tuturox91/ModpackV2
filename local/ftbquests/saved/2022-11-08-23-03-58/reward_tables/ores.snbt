@@ -1,0 +1,10 @@
+{
+	id: "3BEC07DB98BB5258"
+	order_index: 0
+	title: "OresCreate"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:iron_ore", count: 2 }
+		{ item: "minecraft:gold_ore" }
+	]
+}
