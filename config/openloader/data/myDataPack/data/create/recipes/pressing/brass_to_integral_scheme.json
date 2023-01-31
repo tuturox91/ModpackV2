@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "forge:plates/brass"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:integral_scheme_nothing"
+    }
+  ]
+}

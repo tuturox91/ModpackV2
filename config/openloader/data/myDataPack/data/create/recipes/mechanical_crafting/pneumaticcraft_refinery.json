@@ -1,0 +1,35 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " SSSSS ",
+    " CRFRCR",
+    "RRTITRR",
+	"RCRRRC ",
+	" SSSSS "
+  ],
+  "key": {
+    "S": {
+      "item": "pneumaticcraft:reinforced_stone_slab"
+    },
+    "T": {
+      "item": "tconstruct:cobalt_ingot"
+    },
+    "F": {
+      "item": "pneumaticcraft:small_tank"
+    },
+	"R": {
+      "item": "minecraft:redstone"
+    },
+	"I": {
+      "item": "kubejs:integral_scheme"
+    },
+	"C": {
+      "item": "pneumaticcraft:ingot_iron_compressed"
+    }
+  },
+  "result": {
+    "item": "pneumaticcraft:refinery",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

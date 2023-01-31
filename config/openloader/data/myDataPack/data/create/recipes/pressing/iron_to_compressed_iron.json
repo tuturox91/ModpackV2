@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "kubejs:iron_lists_nc"
+    }
+  ],
+  "results": [
+    {
+      "item": "pneumaticcraft:ingot_iron_compressed",
+	  "count": 2
+    }
+  ]
+}

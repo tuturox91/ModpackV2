@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " S ",
+    "TIT",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "pneumaticcraft:reinforced_stone_slab"
+    },
+    "S": {
+      "item": "pneumaticcraft:small_tank"
+    },
+	"I": {
+      "item": "kubejs:integral_scheme"
+    },
+	"T": {
+      "item": "pneumaticcraft:pressure_tube"
+    }
+  },
+  "result": {
+    "item": "pneumaticcraft:gas_lift",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

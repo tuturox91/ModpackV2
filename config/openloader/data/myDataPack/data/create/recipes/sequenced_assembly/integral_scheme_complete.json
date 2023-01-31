@@ -1,0 +1,33 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "kubejs:integral_scheme_no_light"
+  },
+  "transitionalItem": {
+    "item": "kubejs:integral_scheme_no_light"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:integral_scheme_no_light"
+        },
+        {
+          "item": "create:electron_tube"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:integral_scheme_no_light"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:integral_scheme"
+    }
+  ],
+  "loops": 3
+}

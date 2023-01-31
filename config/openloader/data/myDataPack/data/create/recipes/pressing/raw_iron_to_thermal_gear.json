@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "minecraft:raw_iron"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:iron_gear"
+    }
+  ]
+}
