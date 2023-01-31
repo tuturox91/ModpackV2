@@ -1,0 +1,288 @@
+{
+	id: "57B5DF92D54F3341"
+	group: ""
+	order_index: 1
+	filename: "57B5DF92D54F3341"
+	title: "Начальные Исследования"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Водное колесо, еще одно и еще одно!"
+			icon: "create:water_wheel"
+			x: 0.0d
+			y: 0.6d
+			shape: "gear"
+			subtitle: "Откроет: Малая/Большая шестерня, Вал, Водное колесо."
+			description: [
+				""
+				""
+				""
+				""
+				""
+				""
+				""
+				""
+				""
+			]
+			size: 1.2d
+			id: "2400710583BC3346"
+			tasks: [{
+				id: "5FFACB28B195808A"
+				type: "item"
+				item: "kubejs:science_red"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "0B0147ADB2E1540D"
+					type: "command"
+					auto: "invisible"
+					command: "/thitemstages add @p research_1 true"
+					player_command: false
+				}
+				{
+					id: "3349A45ADFED327D"
+					type: "xp"
+					auto: "enabled"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "...Теперь сюда, а потом сюда..."
+			icon: "create:gearbox"
+			x: 1.7999999999999998d
+			y: -0.6d
+			subtitle: "Откроет: Коробку передач/вертикальную, жернов, рукоятка, часы."
+			description: [""]
+			dependencies: ["2400710583BC3346"]
+			hide: true
+			size: 1.2d
+			id: "31B764B833036020"
+			tasks: [{
+				id: "2FE7B166D2D90666"
+				type: "item"
+				item: "kubejs:science_red"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "46B53C43878547D0"
+					type: "command"
+					auto: "invisible"
+					command: "/thitemstages add @p research_2 true"
+					player_command: false
+				}
+				{
+					id: "2870C2705BE03F5A"
+					type: "xp"
+					auto: "enabled"
+					xp: 10
+				}
+				{
+					id: "52FFD5567D0BA460"
+					type: "item"
+					item: "create:andesite_alloy"
+					count: 10
+				}
+			]
+		}
+		{
+			title: "Базовая логистика"
+			icon: "create:belt_connector"
+			x: 1.7999999999999998d
+			y: 3.0d
+			subtitle: "Открывает: Механический ремень."
+			dependencies: ["2400710583BC3346"]
+			hide: true
+			size: 1.2d
+			id: "4CB450421B4E9609"
+			tasks: [{
+				id: "0E13FD1136C860B6"
+				type: "item"
+				item: "kubejs:science_red"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "20EC95F5916F3AE2"
+					type: "command"
+					auto: "invisible"
+					command: "/thitemstages add @p research_3 true"
+					player_command: false
+				}
+				{
+					id: "4D178CAEFA85BB54"
+					type: "xp"
+					auto: "enabled"
+					xp: 5
+				}
+				{
+					id: "6A8285239D90D09E"
+					type: "item"
+					item: "create:andesite_alloy"
+				}
+			]
+		}
+		{
+			title: "Останавливаем и реверсируем."
+			icon: "create:adjustable_chain_gearshift"
+			x: 3.5999999999999996d
+			y: 4.2d
+			subtitle: "Откроет: "
+			dependencies: ["4CB450421B4E9609"]
+			hide: true
+			size: 1.2d
+			id: "4302F5B427868795"
+			tasks: [{
+				id: "0366296C19BE3BF1"
+				type: "item"
+				item: "kubejs:science_red"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "025BE968C398C7BD"
+					type: "command"
+					auto: "invisible"
+					command: "/thitemstages add @p research_4 true"
+					player_command: false
+				}
+				{
+					id: "5CC5010844AB234A"
+					type: "xp"
+					auto: "enabled"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "ТОП 100 ЛУЧШИХ МОМЕНТОВ С МЕХАНИЧЕСКИМ ПРЕССОМ!"
+			icon: "create:mechanical_press"
+			x: 3.5999999999999996d
+			y: -0.6d
+			subtitle: "Откроет:"
+			dependencies: ["31B764B833036020"]
+			hide: true
+			size: 1.2d
+			id: "02B384BACBED7479"
+			tasks: [{
+				id: "45AE712F6D1DE37A"
+				type: "item"
+				item: "kubejs:science_red"
+				count: 15L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "3513016027A1E0A8"
+					type: "command"
+					auto: "invisible"
+					command: "/thitemstages add @p research_5 true"
+					player_command: false
+				}
+				{
+					id: "62BB26246CE63DDB"
+					type: "xp"
+					auto: "enabled"
+					xp: 15
+				}
+			]
+		}
+		{
+			title: "Взболтать, но не смешивать... Или смешать, но не..."
+			icon: "create:mechanical_mixer"
+			x: 5.3999999999999995d
+			y: -0.6d
+			subtitle: "Откроет:"
+			dependencies: ["02B384BACBED7479"]
+			hide: true
+			size: 1.2d
+			id: "1EA1FB454AF55F7C"
+			tasks: [{
+				id: "1CAB11C8FD1E94CC"
+				type: "item"
+				item: "kubejs:science_red"
+				count: 10L
+			}]
+			rewards: [
+				{
+					id: "0EFE91557D46AA99"
+					type: "command"
+					auto: "invisible"
+					command: "/thitemstages add @p research_6 true"
+					player_command: false
+				}
+				{
+					id: "7815EDA91A7AD14F"
+					type: "xp"
+					auto: "enabled"
+					xp: 20
+				}
+			]
+		}
+		{
+			title: "Стрессовая скорость"
+			icon: "create:speedometer"
+			x: 3.5999999999999996d
+			y: 1.7999999999999998d
+			subtitle: "Откроет: Спидометр, Стрессометр"
+			dependencies: ["4CB450421B4E9609"]
+			hide: true
+			size: 1.2d
+			id: "1A017457689D4717"
+			tasks: [{
+				id: "1619D4C15D34015C"
+				type: "item"
+				item: "kubejs:science_red"
+				count: 5L
+			}]
+			rewards: [{
+				id: "6E782CA3633F4A43"
+				type: "command"
+				auto: "invisible"
+				command: "/thitemstages add @p research_7 true"
+				player_command: false
+			}]
+		}
+		{
+			title: "Улучшенная логистика"
+			icon: "create:brass_funnel"
+			x: 4.8d
+			y: 3.0d
+			subtitle: "Открывает:"
+			dependencies: ["4CB450421B4E9609"]
+			hide: true
+			size: 1.2d
+			id: "779111E5B92000BA"
+			tasks: [{
+				id: "65F5F349248A0268"
+				type: "item"
+				item: "kubejs:science_red"
+				count: 20L
+			}]
+			rewards: [{
+				id: "52927115F46874EF"
+				type: "command"
+				auto: "invisible"
+				command: "/thitemstages add @p research_8 true"
+				player_command: false
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.5d
+			id: "3A3F6194A145C361"
+			tasks: [{
+				id: "5118D9EAE30F69A7"
+				type: "item"
+				item: "kubejs:science_red"
+			}]
+		}
+	]
+}

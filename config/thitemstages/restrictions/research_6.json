@@ -1,0 +1,24 @@
+{
+  "Restriction Data": {
+    "stage": "research_6",
+    "itemList": [
+      "create:empty_blaze_burner",
+      "create:blaze_burner",
+      "create:mechanical_mixer",
+      "create:basin",
+      "create:brass_casing"
+    ]
+  },
+  "Settings": {
+    "advancedTooltips": "ALWAYS",
+    "itemTitle": "Unavailable Item",
+    "pickupDelay": 15,
+    "hideInJEI": true,
+    "canPickup": false,
+    "containerListWhitelist": false,
+    "checkPlayerInventory": true,
+    "checkPlayerEquipment": false,
+    "usableItems": false,
+    "usableBlocks": false
+  }
+}

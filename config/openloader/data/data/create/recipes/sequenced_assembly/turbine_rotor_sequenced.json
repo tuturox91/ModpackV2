@@ -1,0 +1,32 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "pneumaticcraft:ingot_iron_compressed"
+  },
+  "transitionalItem": {
+    "item": "kubejs:rotor_one"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "pneumaticcraft:ingot_iron_compressed"
+        },
+        {
+          "item": "pneumaticcraft:turbine_blade"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:rotor_two"
+        }
+      ]
+  ],
+  "results": [
+    {
+      "item": "pneumaticcraft:turbine_rotor"
+    }
+  ],
+  "loops": 3
+}

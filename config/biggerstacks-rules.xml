@@ -1,0 +1,14 @@
+<ruleset version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://codeberg.org/PORTB/BiggerStacksConfigLib/raw/branch/master/extra/schema.xsd">
+    <!-- potions -->
+    <rule stacksize="100">
+        <or>
+            <condition>id kubejs:science_red</condition>
+            <condition>id kubejs:science_green</condition>
+            <condition>id kubejs:science_blue</condition>
+            <condition>id kubejs:science_black</condition>
+            <condition>id kubejs:science_purple</condition>
+            <condition>id kubejs:science_white</condition>
+            <condition>id kubejs:science_yellow</condition>
+        </or>
+    </rule>
+</ruleset>

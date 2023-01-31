@@ -1,0 +1,24 @@
+{
+  "Restriction Data": {
+    "stage": "research_8",
+    "itemList": [
+      "create:deployer",
+      "create:smart_chute",
+      "create:brass_funnel",
+      "create:brass_funnel",
+      "create:brass_tunnel"
+      ]
+  },
+  "Settings": {
+    "advancedTooltips": "ALWAYS",
+    "itemTitle": "Unavailable Item",
+    "pickupDelay": 15,
+    "hideInJEI": true,
+    "canPickup": false,
+    "containerListWhitelist": false,
+    "checkPlayerInventory": true,
+    "checkPlayerEquipment": false,
+    "usableItems": false,
+    "usableBlocks": false
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "Restriction Data": {
+    "stage": "research_2",
+    "itemList": [
+      "create:gearbox",
+      "create:vertical_gearbox",
+      "create:hand_crank",
+      "create:cuckoo_clock",
+      "create:millstone"
+    ]
+  },
+  "Settings": {
+    "advancedTooltips": "ALWAYS",
+    "itemTitle": "Unavailable Item",
+    "pickupDelay": 15,
+    "hideInJEI": true,
+    "canPickup": false,
+    "containerListWhitelist": false,
+    "checkPlayerInventory": true,
+    "checkPlayerEquipment": false,
+    "usableItems": false,
+    "usableBlocks": false
+  }
+}

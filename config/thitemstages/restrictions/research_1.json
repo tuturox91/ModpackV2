@@ -1,0 +1,23 @@
+{
+  "Restriction Data": {
+    "stage": "research_1",
+    "itemList": [
+      "create:shaft",
+      "create:cogwheel",
+      "create:large_cogwheel",
+      "create:water_wheel"
+    ]
+  },
+  "Settings": {
+    "advancedTooltips": "ALWAYS",
+    "itemTitle": "Unavailable Item",
+    "pickupDelay": 15,
+    "hideInJEI": true,
+    "canPickup": false,
+    "containerListWhitelist": false,
+    "checkPlayerInventory": true,
+    "checkPlayerEquipment": false,
+    "usableItems": false,
+    "usableBlocks": false
+  }
+}

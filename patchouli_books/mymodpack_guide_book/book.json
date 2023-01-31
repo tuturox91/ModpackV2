@@ -1,0 +1,9 @@
+{
+    "name": "Гайд по Модпаку",
+    "landing_text": "Все изменения и дополнительные гайды, будут находиться в этой книге!",
+	"model": "kubejs:modpack_book",
+	"subtitle": "Автор: Sniklz",
+	"show_progress": false,
+	"creative_tab": "food",
+    "version": 1
+}

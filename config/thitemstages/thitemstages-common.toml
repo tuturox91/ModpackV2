@@ -1,0 +1,7 @@
+
+["General Options"]
+	#List all the stages that you want to have.
+	stages = ["research_1", "research_2", "research_3", "research_4", "research_5", "research_6", "research_7", "research_8"]
+	#Set this value to 'true' whenever you're having issues, this will allow the mod to output everything it tries to do in the log.
+	debugMode = false
+

@@ -1,0 +1,472 @@
+{
+	id: "231F320EE0F35500"
+	group: ""
+	order_index: 0
+	filename: "231F320EE0F35500"
+	title: "Основы"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Привет мир!"
+			icon: "minecraft:grass_block"
+			disable_toast: true
+			x: 0.0d
+			y: -0.5d
+			shape: "circle"
+			subtitle: "Новая глава начинается!"
+			description: [""]
+			id: "5F3CFB81032A3253"
+			tasks: [{
+				id: "07EA7A8643A9D2CF"
+				type: "dimension"
+				dimension: "minecraft:overworld"
+			}]
+		}
+		{
+			title: "Кажется хочеться есть!"
+			x: -2.5d
+			y: -0.5d
+			shape: "diamond"
+			subtitle: "Еда теперь готовиться на костре. В печке же, вы можете только что-то запечь, например картошку!"
+			dependencies: ["5F3CFB81032A3253"]
+			optional: true
+			id: "4A48CCAF73131895"
+			tasks: [{
+				id: "7DC25C6C2E2564D7"
+				type: "item"
+				item: "minecraft:campfire"
+			}]
+			rewards: [{
+				id: "4E9128F4D25A0A0B"
+				type: "xp"
+				auto: "enabled"
+				xp: 5
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			shape: "diamond"
+			dependencies: [
+				"7DC25C6C2E2564D7"
+				"4A48CCAF73131895"
+			]
+			optional: true
+			id: "1E5A53FAD0EA7DD5"
+			tasks: [{
+				id: "2FA55DF4CCE3B656"
+				type: "item"
+				item: "farmersdelight:stove"
+			}]
+			rewards: [
+				{
+					id: "0285E1A80B5DACCE"
+					type: "xp"
+					auto: "enabled"
+					xp: 10
+				}
+				{
+					id: "01E53CFA5EBB8267"
+					type: "item"
+					item: "minecraft:apple"
+					count: 5
+				}
+			]
+		}
+		{
+			title: "Создать Литейную станцию"
+			x: 1.5d
+			y: -1.5d
+			subtitle: "Создайте литейную станцию для того, что бы сделать первый инструменты."
+			dependencies: ["5F3CFB81032A3253"]
+			hide: true
+			id: "626AE1F05760B914"
+			tasks: [{
+				id: "4A5E111A1032591F"
+				type: "advancement"
+				advancement: "tconstruct:tools/tinker_station"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "3403261873B36EE5"
+					type: "xp"
+					auto: "enabled"
+					xp: 5
+				}
+				{
+					id: "7E36AA9A717E4132"
+					type: "item"
+					item: "minecraft:oak_planks"
+					count: 5
+				}
+			]
+		}
+		{
+			title: "Создать Формирователь частей"
+			x: 1.5d
+			y: 0.5d
+			dependencies: ["5F3CFB81032A3253"]
+			hide: true
+			id: "7E9E1D18F61631C9"
+			tasks: [{
+				id: "58AE8B4AAB081C20"
+				type: "advancement"
+				advancement: "tconstruct:tools/part_builder"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "69DC729F06BC951A"
+					type: "xp"
+					auto: "enabled"
+					xp: 5
+				}
+				{
+					id: "4473C3A1B031A2A0"
+					type: "item"
+					item: "minecraft:spruce_planks"
+					count: 5
+				}
+			]
+		}
+		{
+			title: "Готовим быстрее!"
+			x: -3.5d
+			y: 0.5d
+			shape: "diamond"
+			subtitle: "Сковороду можно поставить прямо на костер, или же на плиту."
+			dependencies: ["4A48CCAF73131895"]
+			optional: true
+			id: "01821A461141D782"
+			tasks: [{
+				id: "29F5CF08B166B0C2"
+				type: "item"
+				item: {
+					id: "farmersdelight:skillet"
+					Count: 1
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4E187902F4882472"
+					type: "xp"
+					auto: "enabled"
+					xp: 5
+				}
+				{
+					id: "65770A38CC81AFF3"
+					type: "item"
+					item: "minecraft:cooked_mutton"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 0.5d
+			shape: "diamond"
+			subtitle: "Создайте Кухонный котел. Ставиться на костер как и сковорода."
+			dependencies: ["4A48CCAF73131895"]
+			optional: true
+			id: "6F45CFE34F9017AB"
+			tasks: [{
+				id: "1C41D77A65F4EFA3"
+				type: "advancement"
+				title: "Кушать подано!"
+				advancement: "farmersdelight:main/place_cooking_pot"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "56F0A8582171F328"
+					type: "xp"
+					auto: "enabled"
+					xp: 10
+				}
+				{
+					id: "2E03E5E87B6DB5F1"
+					type: "item"
+					item: "farmersdelight:vegetable_soup"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			shape: "diamond"
+			optional: true
+			id: "15080A37C897CDD4"
+			tasks: [{
+				id: "471268B8E96DC010"
+				type: "item"
+				item: "tconstruct:puny_smelting"
+			}]
+			rewards: [{
+				id: "6F16432FA34C2426"
+				type: "xp"
+				xp: 2
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			dependencies: [
+				"626AE1F05760B914"
+				"7E9E1D18F61631C9"
+			]
+			hide: true
+			id: "570185F155D3B5FC"
+			tasks: [
+				{
+					id: "353613214531FB87"
+					type: "item"
+					item: "tconstruct:seared_melter"
+				}
+				{
+					id: "596BA731DF951B22"
+					type: "item"
+					item: "tconstruct:seared_heater"
+				}
+			]
+			rewards: [
+				{
+					id: "2E0B55F9C859A9FB"
+					type: "xp"
+					auto: "enabled"
+					xp: 5
+				}
+				{
+					id: "45E6F2D1E038A156"
+					type: "item"
+					item: "tconstruct:grout"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -1.5d
+			dependencies: ["12CFA7409BCC5404"]
+			size: 1.2d
+			id: "3F3916CEFA82C17F"
+			tasks: [{
+				id: "6472C8CE090A1F0D"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+			rewards: [
+				{
+					id: "77B67CA2EB776FF8"
+					type: "xp"
+					auto: "enabled"
+					xp: 10
+				}
+				{
+					id: "0220324000D12401"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -1.5d
+			dependencies: ["570185F155D3B5FC"]
+			hide: true
+			id: "12CFA7409BCC5404"
+			tasks: [{
+				id: "3248E0E891947436"
+				type: "item"
+				item: "tconstruct:seared_table"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.5d
+			dependencies: ["570185F155D3B5FC"]
+			hide: true
+			id: "58EE1106624ED489"
+			tasks: [{
+				id: "7E3C72EF7D8F9267"
+				type: "item"
+				item: "tconstruct:seared_basin"
+			}]
+			rewards: [{
+				id: "500C68EB48D145C5"
+				type: "xp"
+				auto: "enabled"
+				xp: 5
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.5d
+			dependencies: ["58EE1106624ED489"]
+			size: 1.2d
+			id: "1DDEBAE227C313E4"
+			tasks: [{
+				id: "1C7749073FB31255"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+			rewards: [
+				{
+					id: "293E2A73D6FDF14D"
+					type: "xp"
+					auto: "enabled"
+					xp: 10
+				}
+				{
+					id: "5D206C1297F6FA40"
+					type: "item"
+					item: "create:andesite_alloy"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -1.5d
+			subtitle: "Найти немного шестерен что бы сделать форму для выплавки."
+			dependencies: ["3F3916CEFA82C17F"]
+			hide: true
+			id: "408320197855991B"
+			tasks: [{
+				id: "16FDA0E1D98B04E2"
+				type: "item"
+				item: "thermal:iron_gear"
+			}]
+		}
+		{
+			x: 8.450000000000001d
+			y: 0.0d
+			subtitle: "Начало исследований!"
+			dependencies: ["408320197855991B"]
+			hide: true
+			size: 1.3d
+			id: "53AB52781EFB4FC7"
+			tasks: [{
+				id: "519CFAF78ACC1B43"
+				type: "item"
+				item: "kubejs:science_red"
+			}]
+			rewards: [{
+				id: "166C57D4AE40B38E"
+				type: "xp"
+				auto: "enabled"
+				xp: 20
+			}]
+		}
+		{
+			title: "Улучшаем плавильню"
+			x: 10.0d
+			y: 0.0d
+			dependencies: ["53AB52781EFB4FC7"]
+			id: "359DD0AAFD344638"
+			tasks: [
+				{
+					id: "3D32AC347A3FB852"
+					type: "item"
+					item: "tconstruct:smeltery_controller"
+				}
+				{
+					id: "6AC72DCF92D398CC"
+					type: "item"
+					item: "tconstruct:seared_drain"
+				}
+				{
+					id: "51340900C8B25F39"
+					type: "item"
+					item: "tconstruct:seared_fuel_gauge"
+				}
+			]
+			rewards: [
+				{
+					id: "59491559E2180E29"
+					type: "xp_levels"
+					auto: "enabled"
+					xp_levels: 1
+				}
+				{
+					id: "18AA94CE8E304F97"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 10
+				}
+			]
+		}
+		{
+			title: "Построить структуру алтаря"
+			x: 0.0d
+			y: 1.5d
+			subtitle: "Почти бесконечные ресурсы"
+			description: ["Нажмите на иконку алтаря в квесте, что бы включить отображение структуры в мире. Нажмите пкм по месту, что бы поставить ее. После постройки нажмите еще раз на иконку алтаря что бы квест просканировал постройку и засчитался."]
+			dependencies: ["5F3CFB81032A3253"]
+			hide_text_until_complete: true
+			id: "2822A6059ABE7C38"
+			tasks: [{
+				id: "1F140EC2A81CC3AF"
+				type: "questsadditions:structure"
+				icon: "mysticalagriculture:infusion_altar"
+				name: "mystical_altar"
+				hasCustomPicture: false
+				layer: true
+				ignoreState: false
+				rightclick: false
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.0d
+			shape: "diamond"
+			optional: true
+			id: "2A4E5C29C4728557"
+			tasks: [{
+				id: "7DC66D02229CC217"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1
+					tag: {
+						"patchouli:book": "mysticalagriculture:guide"
+					}
+				}
+			}]
+			rewards: [{
+				id: "0937C1E608EF91D1"
+				type: "xp"
+				auto: "enabled"
+				xp: 2
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			dependencies: ["2822A6059ABE7C38"]
+			hide: true
+			id: "15901F90F2A25B0B"
+			tasks: [{
+				id: "724AECBA9413E2D6"
+				type: "item"
+				item: "mysticalagriculture:prosperity_seed_base"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			dependencies: ["2822A6059ABE7C38"]
+			id: "7C1646C8303E6763"
+			tasks: [{
+				id: "77B1687BB2304979"
+				type: "item"
+				item: "mysticalagriculture:inferium_growth_accelerator"
+			}]
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+  "Restriction Data": {
+    "stage": "research_5",
+    "itemList": [
+      "create:depot",
+      "create:mechanical_press"
+    ]
+  },
+  "Settings": {
+    "advancedTooltips": "ALWAYS",
+    "itemTitle": "Unavailable Item",
+    "pickupDelay": 15,
+    "hideInJEI": true,
+    "canPickup": false,
+    "containerListWhitelist": false,
+    "checkPlayerInventory": true,
+    "checkPlayerEquipment": false,
+    "usableItems": false,
+    "usableBlocks": false
+  }
+}

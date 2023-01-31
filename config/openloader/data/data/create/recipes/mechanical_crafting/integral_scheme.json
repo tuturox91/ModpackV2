@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "LML",
+    "MPM",
+    "LIL"
+  ],
+  "key": {
+    "L": {
+      "tag": "forge:ingots/brass"
+    },
+    "M": {
+      "tag": "forge:ingots/copper"
+    },
+    "I": {
+      "tag": "forge:plates/iron"
+    },
+	"P": {
+      "item": "kubejs:integral_scheme_nothing"
+    }
+  },
+  "result": {
+    "item": "kubejs:integral_scheme_no_light",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

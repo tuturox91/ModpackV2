@@ -1,0 +1,7 @@
+[
+  {
+    "mob": "minecraft:zombie",
+	"instreet": true,
+    "removeall": true
+  }
+]

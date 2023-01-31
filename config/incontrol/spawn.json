@@ -1,0 +1,17 @@
+[
+  {
+    "mob": "minecraft:zombie",
+    "dimension": "minecraft:overworld",
+	"speedmultiply": 1.4,
+	"damagemultiply": 2,
+	"instreet": true,
+	"armorhelmet": ["minecraft:iron_helmet", "minecraft:leather_helmet"],
+    "result": "default"
+  },
+  {
+    "mob": "minecraft:zombie",
+    "dimension": "minecraft:overworld",
+    "incontrol": true,
+    "result": "deny"
+  }
+]

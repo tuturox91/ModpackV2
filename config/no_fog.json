@@ -1,0 +1,1426 @@
+{
+  "globalToggles": {
+    "skyFog": "DEFAULT",
+    "terrainFog": "DEFAULT",
+    "thickFog": "DEFAULT",
+    "waterFog": "DEFAULT",
+    "lavaFog": "DEFAULT",
+    "powderSnowFog": "DEFAULT",
+    "blindnessFog": "DEFAULT",
+    "darknessFog": "DEFAULT"
+  },
+  "dimensionToggles": {
+    "minecraft:overworld": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:the_nether": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:overworld_caves": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:the_end": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "ae2:spatial_storage": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "compactmachines:compact_world": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "inversia:inversiadim_type": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    }
+  },
+  "biomeToggles": {
+    "minecraft:forest": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:beach": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:plains": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:basalt_deltas": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:nether_wastes": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:withered_abyss": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:erupting_inferno": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:crystalline_chasm": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:undergrowth": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "compactmachines:machine": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "inversia:geodeial_caverns": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "inversia:glacial_caverns": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "inversia:molten_seeps": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "inversia:obsidian_spirals": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "ae2:spatial_storage": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "inversia:warped_obsidian": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "terrablender:deferred_placeholder": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:crimson_forest": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:bayou": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:bamboo_grove": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:bamboo_jungle": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:birch_forest": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:badlands": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:swamp": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:shrubland": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:boreal_forest": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:visceral_heap": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:highland_moor": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:wetland": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:end_highlands": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:volcano": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:volcanic_plains": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:windswept_savanna": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:eroded_badlands": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:windswept_gravelly_hills": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:windswept_hills": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:windswept_forest": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:deep_frozen_ocean": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:deep_ocean": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:deep_lukewarm_ocean": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:deep_cold_ocean": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:fungal_jungle": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:mushroom_fields": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:jungle": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:rainforest": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:origin_valley": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:soul_sand_valley": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:dune_beach": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:frozen_river": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:frozen_peaks": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:frozen_ocean": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:lush_caves": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:snowy_taiga": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:snowy_plains": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:snowy_slopes": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:snowy_beach": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:ominous_woods": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:jagged_peaks": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:warped_forest": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:stony_shore": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:stony_peaks": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:dripstone_caves": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:maple_woods": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:redwood_forest": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:lavender_field": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:lavender_forest": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:ice_spikes": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:woodland": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:wooded_scrubland": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:wooded_wasteland": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:wooded_badlands": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:forested_field": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:meadow": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:scrubland": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:mystic_grove": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:dead_forest": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:highland": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:jade_cliffs": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:ocean": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:end_barrens": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:small_end_islands": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:pasture": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:spider_nest": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:fir_clearing": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:orchard": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:sunflower_plains": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:floodplain": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:field": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:clover_patch": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:grassland": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:prairie": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:the_void": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:wasteland": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:desert": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:lush_desert": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:lush_savanna": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:end_midlands": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:rainbow_hills": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:sparse_jungle": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:river": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:old_growth_spruce_taiga": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:old_growth_pine_taiga": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:old_growth_birch_forest": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:grove": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:savanna": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:savanna_plateau": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:glowing_grotto": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:seasonal_forest": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:rocky_shrubland": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:rocky_rainforest": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:snowy_fir_clearing": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:snowy_maple_woods": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:snowy_coniferous_forest": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:mediterranean_forest": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:old_growth_woodland": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:old_growth_dead_forest": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:dryland": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:muskeg": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:taiga": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:lukewarm_ocean": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:marsh": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:bog": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:tropics": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:tundra": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:pumpkin_patch": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:dark_forest": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:warm_ocean": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:crag": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:coniferous_forest": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:cold_desert": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:cold_ocean": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:flower_forest": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "biomesoplenty:cherry_blossom_grove": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    },
+    "minecraft:the_end": {
+      "skyFog": "DEFAULT",
+      "terrainFog": "DEFAULT",
+      "thickFog": "DEFAULT",
+      "waterFog": "DEFAULT",
+      "lavaFog": "DEFAULT",
+      "powderSnowFog": "DEFAULT",
+      "blindnessFog": "DEFAULT",
+      "darknessFog": "DEFAULT"
+    }
+  }
+}

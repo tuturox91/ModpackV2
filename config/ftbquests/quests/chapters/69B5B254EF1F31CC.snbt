@@ -1,0 +1,19 @@
+{
+	id: "69B5B254EF1F31CC"
+	group: ""
+	order_index: 2
+	filename: "69B5B254EF1F31CC"
+	title: "Логистика"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.5d
+		y: -0.5d
+		id: "7A301D7166C6EB74"
+		tasks: [{
+			id: "08267D59788E590D"
+			type: "item"
+			item: "minecraft:calcite"
+		}]
+	}]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Глава 2",
+    "icon": "computercraft:computer_normal",
+    "category": "patchouli:cctweaked",
+    "pages": [
+		{
+			"type": "patchouli:text",
+			"text": " Приветствую $(l)$(playername), $()на небольшом курсе по LUA и CC:Tweaked.$(br) В Computer Craft основными элементами является $(l)терминал$() компьютера $(o)(который схож с настоящей консолью) $()и сам язык $(l)Lua$().$(br) Сам же язык $(l)Lua$(), достаточно прост и не имеет сложных конструкций как в языках высокого уровня. Более того, он будет даже проще чем Python."
+		},
+		{
+			"type": "patchouli:text",
+			"text": " Если вы уже знакомы с какими либо языками  то, скорее всего вам потребуется минут 15, что бы осмотреть и освоить все стандартные необходимые конструкции собранные $(l:https://tylerneylon.com/a/learn-lua/)тут$(/l)."
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Компьютер и Монитор",
+			"text": " Давайте начнем с основного, первое что вам нужно сделать это сам $(l)Компьютер$(), а так же сделать $(l)Монитор$()."
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "computercraft:computer_normal",
+			"recipe2": "computercraft:monitor_normal"
+		}
+	]
+}

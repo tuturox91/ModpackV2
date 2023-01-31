@@ -1,0 +1,23 @@
+{
+  "Restriction Data": {
+    "stage": "research_4",
+    "itemList": [
+      "create:clutch",
+      "create:adjustable_chain_gearshift",
+      "create:gearshift",
+      "create:encased_chain_drive"
+    ]
+  },
+  "Settings": {
+    "advancedTooltips": "ALWAYS",
+    "itemTitle": "Unavailable Item",
+    "pickupDelay": 15,
+    "hideInJEI": true,
+    "canPickup": false,
+    "containerListWhitelist": false,
+    "checkPlayerInventory": true,
+    "checkPlayerEquipment": false,
+    "usableItems": false,
+    "usableBlocks": false
+  }
+}

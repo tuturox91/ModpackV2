@@ -1,0 +1,24 @@
+{
+  "Restriction Data": {
+    "stage": "research_3",
+    "itemList": [
+      "create:belt_connector",
+      "create:chute",
+      "create:andesite_funnel",
+      "create:andesite_tunnel",
+      "create:weighted_ejector"
+    ]
+  },
+  "Settings": {
+    "advancedTooltips": "ALWAYS",
+    "itemTitle": "Unavailable Item",
+    "pickupDelay": 15,
+    "hideInJEI": true,
+    "canPickup": false,
+    "containerListWhitelist": false,
+    "checkPlayerInventory": true,
+    "checkPlayerEquipment": false,
+    "usableItems": false,
+    "usableBlocks": false
+  }
+}
